@@ -1,11 +1,11 @@
 import logo from './../../house2.png';
-import './App.css';
+import './styles/index.css';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import { Button, Paper } from '@material-ui/core';
 
-function App() {
+function DAOpage() {
   return (
     <Container maxWidth="sm" className="App">
       <Paper>
@@ -24,4 +24,4 @@ function App() {
   );
 }
 
-export default App;
+export default DAOpage;
