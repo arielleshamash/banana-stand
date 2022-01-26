@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Box, Grid, Toolbar } from "@material-ui/core";
+import { Typography, Box, Grid, Toolbar, Container } from "@material-ui/core";
 import logo from "./images/BRLogo.png";
 import stand from "./images/BananaStand.png";
 
@@ -7,23 +7,43 @@ function Head() {
   return (
     <div>
       <div>
-        <Box display="flex" justifyContent="flex-start" className="row">
+        <Box display="flex" justifyContent="space-around">
           <Toolbar>
             <img
               src={logo}
               alt="logo"
-              style={{ width: "15%", marginBottom: "20px" }}
+              style={{ width: "15%", margin: "15px" }}
             />
           </Toolbar>{" "}
         </Box>
       </div>
-      <Box display="flex" justifyContent="center" className="row">
-        <div>
-          <Box justifyContent="space-between" className="row">
+      <Container fixed>
+        <Box
+          sx={{
+            height: "90vh",
+            width: "90vw",
+            backgroundColor: "white",
+            marginBottom: "30px",
+          }}
+        >
+          <Grid
+            container
+            direction="row"
+            justifyContent="center"
+            alignItems="center"
+          >
             <Grid item md={6}>
-              <img src={stand} alt="banana-stand" style={{ width: "75%" }} />
+              <img
+                src={stand}
+                alt="banana-stand"
+                style={{
+                  width: "70%",
+                  verticalAlign: "middle",
+                  marginTop: "25px",
+                }}
+              />
             </Grid>
-            <Grid item xs={12} md={5}>
+            <Grid item md={4}>
               <Box
                 display="flex"
                 flexDirection="column"
@@ -50,9 +70,9 @@ function Head() {
                 </div>
               </Box>
             </Grid>
-          </Box>
-        </div>
-      </Box>
+          </Grid>
+        </Box>
+      </Container>
     </div>
   );
 }
