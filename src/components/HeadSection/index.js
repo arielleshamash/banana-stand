@@ -21,17 +21,12 @@ function Head() {
         <Box
           sx={{
             height: "90vh",
-            width: "90vw",
             backgroundColor: "white",
             marginBottom: "30px",
+            justify: "center",
           }}
         >
-          <Grid
-            container
-            direction="row"
-            justifyContent="center"
-            alignItems="center"
-          >
+          <Grid container justify="center" direction="row">
             <Grid item md={6}>
               <img
                 src={stand}
