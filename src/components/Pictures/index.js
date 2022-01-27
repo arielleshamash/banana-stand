@@ -30,7 +30,7 @@ function Slideshow() {
   }, [index]);
 
   return (
-    <div className="slideshow">
+    <div className="slideshow" style={{ marginBottom: "50px" }}>
       <div
         className="slideshowSlider"
         style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}

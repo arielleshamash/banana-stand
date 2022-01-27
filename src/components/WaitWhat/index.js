@@ -6,11 +6,11 @@ function WaitWhat() {
     <div style={{ marginBottom: "100px" }}>
       <Container fixed>
         <div style={{ marginBottom: "30px" }}>
-          <Typography variant="h3" align="center">
+          <Typography variant="h3" align="center" className="header">
             Wait…what?
           </Typography>
         </div>
-        <Typography variant="h6" align="center">
+        <Typography variant="h6" align="center" className="bodyText">
           So check it out. Each individual NFT confers access to the République
           through an airdropped access token. Each access token represents one
           vote in all DAO proposals. When an NFT is resold the new owner will

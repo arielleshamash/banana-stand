@@ -1,4 +1,3 @@
-
 html {
   background: url("./components/HeadSection/images/paperBackground.png")
     no-repeat center center fixed;
@@ -8,4 +7,29 @@ html {
   background-size: cover;
 }
 
-
+@font-face {
+  font-family: "Declaration";
+  src: local("Declaration"),
+    url(./fonts/Declaration/USDeclaration.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Fell-English";
+  src: local("FellEnglish"),
+    url(./fonts/FellEnglish/IMFellEnglish-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "WalterTurncoat";
+  src: local("WalterTurncoat"),
+    url(./fonts/WalterTurncoat/WalterTurncoat-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Chapbook";
+  src: local("Chapbook"),
+    url(./fonts/Chapbook/Chapbook.ttf) format("truetype");
+}
+.header {
+  font-family: "Chapbook" !important;
+}
+.bodyText {
+  font-family: "Fell-English" !important;
+}

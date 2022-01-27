@@ -6,11 +6,11 @@ function Peggy() {
     <div style={{ marginBottom: "100px" }}>
       <Container fixed>
         <div style={{ marginBottom: "30px" }}>
-          <Typography variant="h3" align="center">
+          <Typography variant="h3" align="center" className="header">
             Peggy Anderson
           </Typography>
         </div>
-        <Typography variant="h6" align="center">
+        <Typography variant="h6" align="center" className="bodyText">
           Peggy Anderson is an artist/photographer based in New York and Sweden.
           Known for embracing ritual and typology, Peggy’s signature project and
           book The Morning Dip was recently exhibited at Abecita Pop Konst &
