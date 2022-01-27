@@ -20,7 +20,7 @@ function FAQsection() {
   };
 
   return (
-    <div>
+    <div style={{ marginBottom: "100px" }}>
       <Box
         sx={{
           margin: "50px",

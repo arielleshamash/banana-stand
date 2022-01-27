@@ -5,7 +5,7 @@ import stand from "./images/BananaStand.png";
 
 function Head() {
   return (
-    <div>
+    <div style={{ marginBottom: "100px" }}>
       <div>
         <Box display="flex" justifyContent="space-around">
           <Toolbar>
@@ -20,7 +20,7 @@ function Head() {
       <Container fixed>
         <Box
           sx={{
-            height: "90vh",
+            height: "83vh",
             backgroundColor: "white",
             marginBottom: "30px",
             justify: "center",
@@ -34,7 +34,8 @@ function Head() {
                 style={{
                   width: "70%",
                   verticalAlign: "middle",
-                  marginTop: "25px",
+                  marginTop: "20px",
+                  marginBottom: "20px",
                 }}
               />
             </Grid>
