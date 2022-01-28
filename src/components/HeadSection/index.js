@@ -1,6 +1,6 @@
 import React from "react";
 import { Typography, Box, Grid, Toolbar, Container } from "@material-ui/core";
-import logo from "./images/BRLogo.png";
+import logo from "./images/logo.png";
 import stand from "./images/BananaStand.png";
 
 function Head() {
@@ -47,16 +47,16 @@ function Head() {
                 height="100%"
               >
                 <Box mb={4}>
-                  <Typography variant="h3">
+                  <Typography variant="h3" className="bodyText">
                     Banana republic
-                    <Typography variant="h4" color="red">
+                    <Typography variant="h4" color="red" className="bodyText">
                       [noun]
                     </Typography>
                   </Typography>
                 </Box>
                 <div>
                   <Box mb={2}>
-                    <Typography color="blue">
+                    <Typography color="blue" variant="h6" className="bodyText">
                       /bəˌnæn.ə rɪˈpʌb.lɪk/ <br />
                       an exploitative government that functions poorly for its
                       citizenry while disproportionately benefiting a corrupt

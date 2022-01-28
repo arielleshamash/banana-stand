@@ -28,7 +28,7 @@ html {
     url(./fonts/Chapbook/Chapbook.ttf) format("truetype");
 }
 .header {
-  font-family: "Chapbook" !important;
+  font-family: "Declaration" !important;
 }
 .bodyText {
   font-family: "Fell-English" !important;
