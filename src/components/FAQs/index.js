@@ -29,7 +29,7 @@ function FAQsection() {
       >
         <div style={{ marginBottom: "30px" }}>
           <Typography variant="h3" align="center" className="header">
-            FAQs
+            Frequently Asked Questions
           </Typography>
         </div>
         <Accordion
