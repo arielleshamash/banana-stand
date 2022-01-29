@@ -24,8 +24,7 @@ html {
 }
 @font-face {
   font-family: "Chapbook";
-  src: local("Chapbook"),
-    url(./fonts/Chapbook/Chapbook.ttf) format("truetype");
+  src: local("Chapbook"), url(./fonts/Chapbook/Chapbook.ttf) format("truetype");
 }
 .header {
   font-family: "Declaration" !important;
@@ -38,5 +37,7 @@ p {
 }
 .MuiTypography-body1 {
   font-family: "Fell-English" !important;
-
+}
+.MuiTypography-colorTextSecondary {
+  color: "#041852" !important;
 }

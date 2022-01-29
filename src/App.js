@@ -4,7 +4,7 @@ import Head from "./components/HeadSection";
 import TopBlurb from "./components/TopBlurb";
 import WaitWhat from "./components/WaitWhat";
 import Peggy from "./components/Peggy";
-import Slideshow from "./components/Pictures";
+// import Slideshow from "./components/Pictures";
 import Slideshow2 from "./components/pics2";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
     <>
       <Head />
       <TopBlurb />
-      <Slideshow />
+      {/* <Slideshow /> */}
       <Slideshow2 />
       <WaitWhat />
       <Peggy />

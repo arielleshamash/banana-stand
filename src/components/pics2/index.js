@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Container } from "@material-ui/core";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 // import pics from "./carousel";
@@ -26,10 +27,10 @@ const Slideshow2 = () => {
 
   return (
     <div>
-      <img src="carousel/Anacharsis Cloots.jpg" alt="banana" />
-      <div>
-        <Slide autoplay={autoplay}>
-          {/* {images.map((each, index) => (
+      <Container fixed>
+        <div>
+          <Slide autoplay={autoplay}>
+            {/* {images.map((each, index) => (
             <img
               key={index}
               style={{ width: "100%" }}
@@ -37,25 +38,41 @@ const Slideshow2 = () => {
               alt="bananapics"
             />
           ))} */}
-          <img
-            src={images["AnacharsisCloots.jpg"]}
-            alt="banana"
-            style={{ width: "50%" }}
-          />
-        </Slide>
-      </div>
-
-      <div className="autoplay-buttons">
-        Autplay is {autoplay ? "on" : "off"}
-      </div>
-      <div className="autoplay-buttons">
-        <button type="button" onClick={() => setAutoplay(false)}>
-          Pause
-        </button>
-        <button type="button" onClick={() => setAutoplay(true)}>
-          Play
-        </button>
-      </div>
+            <img
+              src={images["AnacharsisCloots.jpg"]}
+              alt="banana"
+              style={{ width: "20%" }}
+            />
+            <img
+              src={images["AlexandreTheodore.jpg"]}
+              alt="banana"
+              style={{ width: "20%" }}
+            />
+            <img
+              src={images["AntoineQuentinFouquierTinville.jpg"]}
+              alt="banana"
+              style={{ width: "20%" }}
+            />
+          </Slide>
+          <Slide autoplay={autoplay}>
+            <img
+              src={images["AntoineQuentinFouquierTinville.jpg"]}
+              alt="banana"
+              style={{ maxHeight: "200px" }}
+            />
+            <img
+              src={images["AnacharsisCloots.jpg"]}
+              alt="banana"
+              style={{ maxHeight: "200px" }}
+            />
+            <img
+              src={images["AlexandreTheodore.jpg"]}
+              alt="banana"
+              style={{ maxHeight: "200px" }}
+            />
+          </Slide>
+        </div>
+      </Container>
     </div>
   );
 };

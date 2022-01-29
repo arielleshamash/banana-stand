@@ -28,7 +28,12 @@ function FAQsection() {
         }}
       >
         <div style={{ marginBottom: "40px" }}>
-          <Typography variant="h3" align="center" className="header">
+          <Typography
+            variant="h3"
+            align="center"
+            className="header"
+            style={{ color: "darkred" }}
+          >
             Frequently Asked Questions
           </Typography>
         </div>
@@ -42,12 +47,16 @@ function FAQsection() {
             id="panel1bh-header"
             align="center"
           >
-            <Typography className="bodyText" variant="h6">
+            <Typography
+              className="bodyText"
+              variant="h6"
+              style={{ color: "#041852" }}
+            >
               En français?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography className="bodyText">
+            <Typography className="bodyText" style={{ color: "#041852" }}>
               La photographe americano-suédoise Peggy Anderson parcourt les
               trottoirs parisiens à la recherche d’objets abandonnés. Chaises,
               bouts de bois, cadres, et…peaux de bananes, abandonnés par des
@@ -70,12 +79,16 @@ function FAQsection() {
             aria-controls="panel2bh-content"
             id="panel2bh-header"
           >
-            <Typography className="bodyText" variant="h6">
+            <Typography
+              className="bodyText"
+              variant="h6"
+              style={{ color: "#041852" }}
+            >
               NFTs
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography className="bodyText">
+            <Typography className="bodyText" style={{ color: "#041852" }}>
               Each of the 88 NFTs has already been minted, since unlike
               randomized generative art we want you to be able to own the piece
               that speaks to you personally. Each individual photograph has
@@ -104,7 +117,11 @@ function FAQsection() {
             aria-controls="panel3bh-content"
             id="panel3bh-header"
           >
-            <Typography className="bodyText" variant="h6">
+            <Typography
+              className="bodyText"
+              variant="h6"
+              style={{ color: "#041852" }}
+            >
               DAO Governance
             </Typography>
           </AccordionSummary>
@@ -119,7 +136,7 @@ function FAQsection() {
               The only proposal in the DAO at inception will be a vote to
               determine the voting mechanism - meta, eh?
             </Typography> */}
-            <Typography className="bodyText">
+            <Typography className="bodyText" style={{ color: "#041852" }}>
               <List>
                 <ListItem>
                   <ListItemText primary="Tools used" />
@@ -152,7 +169,11 @@ function FAQsection() {
             aria-controls="panel4bh-content"
             id="panel4bh-header"
           >
-            <Typography className="bodyText" variant="h6">
+            <Typography
+              className="bodyText"
+              variant="h6"
+              style={{ color: "#041852" }}
+            >
               Concerns (Alleviated)
             </Typography>
           </AccordionSummary>
@@ -208,12 +229,16 @@ function FAQsection() {
             aria-controls="panel5bh-content"
             id="panel5bh-header"
           >
-            <Typography className="bodyText" variant="h6">
+            <Typography
+              className="bodyText"
+              variant="h6"
+              style={{ color: "#041852" }}
+            >
               Technical Details
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography className="bodyText">
+            <Typography className="bodyText" style={{ color: "#041852" }}>
               NFTs minted on Polygon and moved to ETH, with the gas fees baked
               in already. <br />
               IPFS? <br />
@@ -230,12 +255,16 @@ function FAQsection() {
             aria-controls="panel6bh-content"
             id="panel6bh-header"
           >
-            <Typography className="bodyText" variant="h6">
+            <Typography
+              className="bodyText"
+              variant="h6"
+              style={{ color: "#041852" }}
+            >
               Extra Reading
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography className="bodyText">
+            <Typography className="bodyText" style={{ color: "#041852" }}>
               <Link href="#">
                 https://www.readthegeneralist.com/briefing/dao{" "}
               </Link>

@@ -6,11 +6,21 @@ function TopBlurb() {
     <div style={{ marginBottom: "100px" }}>
       <Container fixed>
         <div style={{ marginBottom: "30px" }}>
-          <Typography variant="h3" align="center" className="header">
+          <Typography
+            variant="h3"
+            align="center"
+            className="header"
+            style={{ color: "darkred" }}
+          >
             Top Blurb
           </Typography>
         </div>
-        <Typography variant="h6" align="center" className="bodyText">
+        <Typography
+          variant="h6"
+          align="center"
+          className="bodyText"
+          style={{ color: "#041852" }}
+        >
           The world looks more and more like a banana republic every day. Peel
           back the skin and you find questionable intentions, a lack of
           alignment among global decision makers, a fundamental disconnect in

@@ -47,16 +47,28 @@ function Head() {
                 height="100%"
               >
                 <Box mb={4}>
-                  <Typography variant="h3" className="bodyText">
+                  <Typography
+                    variant="h3"
+                    className="bodyText"
+                    style={{ color: "#041852" }}
+                  >
                     Banana republic
-                    <Typography variant="h4" color="red" className="bodyText">
+                    <Typography
+                      variant="h4"
+                      className="bodyText"
+                      style={{ color: "darkred" }}
+                    >
                       [noun]
                     </Typography>
                   </Typography>
                 </Box>
                 <div>
                   <Box mb={2}>
-                    <Typography color="blue" variant="h6" className="bodyText">
+                    <Typography
+                      variant="h6"
+                      className="bodyText"
+                      style={{ color: "#041852" }}
+                    >
                       /bəˌnæn.ə rɪˈpʌb.lɪk/ <br />
                       an exploitative government that functions poorly for its
                       citizenry while disproportionately benefiting a corrupt
