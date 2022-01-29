@@ -5,7 +5,7 @@ function Peggy() {
   return (
     <div style={{ marginBottom: "100px" }}>
       <Container fixed>
-        <div style={{ marginBottom: "30px" }}>
+        <div style={{ marginBottom: "40px" }}>
           <Typography variant="h3" align="center" className="header">
             Peggy Anderson
           </Typography>

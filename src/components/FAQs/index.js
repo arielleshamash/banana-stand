@@ -23,11 +23,11 @@ function FAQsection() {
     <div style={{ marginBottom: "100px" }}>
       <Box
         sx={{
-          margin: "50px",
+          margin: "150px",
           justify: "center",
         }}
       >
-        <div style={{ marginBottom: "30px" }}>
+        <div style={{ marginBottom: "40px" }}>
           <Typography variant="h3" align="center" className="header">
             Frequently Asked Questions
           </Typography>
@@ -40,11 +40,14 @@ function FAQsection() {
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1bh-content"
             id="panel1bh-header"
+            align="center"
           >
-            <Typography sx={{ flexShrink: 0 }}>En français?</Typography>
+            <Typography className="bodyText" variant="h6">
+              En français?
+            </Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography>
+            <Typography className="bodyText">
               La photographe americano-suédoise Peggy Anderson parcourt les
               trottoirs parisiens à la recherche d’objets abandonnés. Chaises,
               bouts de bois, cadres, et…peaux de bananes, abandonnés par des
@@ -67,10 +70,12 @@ function FAQsection() {
             aria-controls="panel2bh-content"
             id="panel2bh-header"
           >
-            <Typography sx={{ flexShrink: 0 }}>NFTs</Typography>
+            <Typography className="bodyText" variant="h6">
+              NFTs
+            </Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography>
+            <Typography className="bodyText">
               Each of the 88 NFTs has already been minted, since unlike
               randomized generative art we want you to be able to own the piece
               that speaks to you personally. Each individual photograph has
@@ -99,7 +104,9 @@ function FAQsection() {
             aria-controls="panel3bh-content"
             id="panel3bh-header"
           >
-            <Typography sx={{ flexShrink: 0 }}>DAO Governance</Typography>
+            <Typography className="bodyText" variant="h6">
+              DAO Governance
+            </Typography>
           </AccordionSummary>
           <AccordionDetails>
             {/* <Typography>
@@ -112,7 +119,7 @@ function FAQsection() {
               The only proposal in the DAO at inception will be a vote to
               determine the voting mechanism - meta, eh?
             </Typography> */}
-            <Typography>
+            <Typography className="bodyText">
               <List>
                 <ListItem>
                   <ListItemText primary="Tools used" />
@@ -145,7 +152,7 @@ function FAQsection() {
             aria-controls="panel4bh-content"
             id="panel4bh-header"
           >
-            <Typography sx={{ width: "33%", flexShrink: 0 }}>
+            <Typography className="bodyText" variant="h6">
               Concerns (Alleviated)
             </Typography>
           </AccordionSummary>
@@ -201,10 +208,12 @@ function FAQsection() {
             aria-controls="panel5bh-content"
             id="panel5bh-header"
           >
-            <Typography sx={{ flexShrink: 0 }}>Technical Details</Typography>
+            <Typography className="bodyText" variant="h6">
+              Technical Details
+            </Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography>
+            <Typography className="bodyText">
               NFTs minted on Polygon and moved to ETH, with the gas fees baked
               in already. <br />
               IPFS? <br />
@@ -221,10 +230,12 @@ function FAQsection() {
             aria-controls="panel6bh-content"
             id="panel6bh-header"
           >
-            <Typography sx={{ flexShrink: 0 }}>Extra Reading</Typography>
+            <Typography className="bodyText" variant="h6">
+              Extra Reading
+            </Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography>
+            <Typography className="bodyText">
               <Link href="#">
                 https://www.readthegeneralist.com/briefing/dao{" "}
               </Link>

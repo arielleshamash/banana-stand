@@ -1,6 +1,6 @@
 {
   "name": "banana-stand",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "homepage": "https://arielleshamash.github.io/banana-stand/",
   "dependencies": {
@@ -15,6 +15,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
+    "react-slideshow-image": "^3.6.1",
     "web-vitals": "^2.1.0"
   },
   "scripts": {

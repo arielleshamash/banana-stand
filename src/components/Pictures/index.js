@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/index.css";
 
-const colors = ["#0088FE", "#00C49F", "#FFBB28"];
+const bananaPics = ["#0088FE", "#00C49F", "#FFBB28"];
 const delay = 2500;
 
 function Slideshow() {
@@ -19,7 +19,7 @@ function Slideshow() {
     timeoutRef.current = setTimeout(
       () =>
         setIndex((prevIndex) =>
-          prevIndex === colors.length - 1 ? 0 : prevIndex + 1
+          prevIndex === bananaPics.length - 1 ? 0 : prevIndex + 1
         ),
       delay
     );
@@ -35,7 +35,7 @@ function Slideshow() {
         className="slideshowSlider"
         style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
       >
-        {colors.map((backgroundColor, index) => (
+        {bananaPics.map((backgroundColor, index) => (
           <div className="slide" key={index} style={{ backgroundColor }}></div>
         ))}
       </div>
