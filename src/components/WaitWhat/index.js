@@ -3,7 +3,7 @@ import { Typography, Container } from "@material-ui/core";
 
 function WaitWhat() {
   return (
-    <div style={{ marginBottom: "100px" }}>
+    <div style={{ marginBottom: "80px" }}>
       <Container fixed>
         <div style={{ marginBottom: "30px" }}>
           <Typography
@@ -19,7 +19,7 @@ function WaitWhat() {
           variant="h6"
           align="center"
           className="bodyText"
-          style={{ color: "#041852" }}
+          style={{ color: "#041852", lineHeight: "1.4" }}
         >
           So check it out. Each individual NFT confers access to the République
           through an airdropped access token. Each access token represents one
@@ -46,7 +46,7 @@ function WaitWhat() {
           <br />
           <br />
           Don’t own an NFT? Tune into the Discord and watch the madness from the
-          sidelines.
+          sidelines. Launch date:
         </Typography>
       </Container>
     </div>

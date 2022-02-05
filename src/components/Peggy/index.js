@@ -3,9 +3,9 @@ import { Typography, Link, Container } from "@material-ui/core";
 
 function Peggy() {
   return (
-    <div style={{ marginBottom: "100px" }}>
+    <div style={{ marginBottom: "80px" }}>
       <Container fixed>
-        <div style={{ marginBottom: "40px" }}>
+        <div style={{ marginBottom: "55px" }}>
           <Typography
             variant="h3"
             align="center"
@@ -19,7 +19,7 @@ function Peggy() {
           variant="h6"
           align="center"
           className="bodyText"
-          style={{ color: "#041852" }}
+          style={{ color: "#041852", lineHeight: "1.4" }}
         >
           Peggy Anderson is an artist/photographer based in New York and Sweden.
           Known for embracing ritual and typology, Peggy’s signature project and

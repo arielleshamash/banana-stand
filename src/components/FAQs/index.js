@@ -27,7 +27,7 @@ function FAQsection() {
           justify: "center",
         }}
       >
-        <div style={{ marginBottom: "40px" }}>
+        <div style={{ marginBottom: "55px" }}>
           <Typography
             variant="h3"
             align="center"
@@ -40,6 +40,7 @@ function FAQsection() {
         <Accordion
           expanded={expanded === "panel1"}
           onChange={handleChange("panel1")}
+          style={{ backgroundColor: "rgb(255,255,255, 0.5)" }}
         >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
@@ -73,6 +74,7 @@ function FAQsection() {
         <Accordion
           expanded={expanded === "panel2"}
           onChange={handleChange("panel2")}
+          style={{ backgroundColor: "rgb(255,255,255, 0.5)" }}
         >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
@@ -111,6 +113,7 @@ function FAQsection() {
         <Accordion
           expanded={expanded === "panel3"}
           onChange={handleChange("panel3")}
+          style={{ backgroundColor: "rgb(255,255,255, 0.5)" }}
         >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
@@ -163,6 +166,7 @@ function FAQsection() {
         <Accordion
           expanded={expanded === "panel4"}
           onChange={handleChange("panel4")}
+          style={{ backgroundColor: "rgb(255,255,255, 0.5)" }}
         >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
@@ -223,6 +227,7 @@ function FAQsection() {
         <Accordion
           expanded={expanded === "panel5"}
           onChange={handleChange("panel5")}
+          style={{ backgroundColor: "rgb(255,255,255, 0.5)" }}
         >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
@@ -249,6 +254,7 @@ function FAQsection() {
         <Accordion
           expanded={expanded === "panel6"}
           onChange={handleChange("panel6")}
+          style={{ backgroundColor: "rgb(255,255,255, 0.5)" }}
         >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}

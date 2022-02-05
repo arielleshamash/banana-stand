@@ -21,7 +21,7 @@ function Head() {
         <Box
           sx={{
             height: "83vh",
-            backgroundColor: "white",
+            backgroundColor: "rgb(255,255,255, 0.5)",
             marginBottom: "30px",
             justify: "center",
           }}
@@ -39,7 +39,7 @@ function Head() {
                 }}
               />
             </Grid>
-            <Grid item md={4}>
+            <Grid item md={5}>
               <Box
                 display="flex"
                 flexDirection="column"
@@ -52,11 +52,11 @@ function Head() {
                     className="bodyText"
                     style={{ color: "#041852" }}
                   >
-                    Banana republic
+                    banana republic
                     <Typography
                       variant="h4"
                       className="bodyText"
-                      style={{ color: "darkred" }}
+                      style={{ color: "darkred", marginTop: "7.5px" }}
                     >
                       [noun]
                     </Typography>
@@ -65,11 +65,17 @@ function Head() {
                 <div>
                   <Box mb={2}>
                     <Typography
-                      variant="h6"
+                      variant="h5"
+                      className="bodyText"
+                      style={{ color: "#555555" }}
+                    >
+                      /bəˌnæn.ə rɪˈpʌb.lɪk/ <br />
+                    </Typography>
+                    <Typography
+                      variant="h5"
                       className="bodyText"
                       style={{ color: "#041852" }}
                     >
-                      /bəˌnæn.ə rɪˈpʌb.lɪk/ <br />
                       an exploitative government that functions poorly for its
                       citizenry while disproportionately benefiting a corrupt
                       elite group or individual.

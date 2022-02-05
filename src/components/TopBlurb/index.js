@@ -3,9 +3,9 @@ import { Typography, Container } from "@material-ui/core";
 
 function TopBlurb() {
   return (
-    <div style={{ marginBottom: "100px" }}>
+    <div style={{ marginBottom: "80px" }}>
       <Container fixed>
-        <div style={{ marginBottom: "30px" }}>
+        <div style={{ marginBottom: "40px" }}>
           <Typography
             variant="h3"
             align="center"
@@ -19,7 +19,7 @@ function TopBlurb() {
           variant="h6"
           align="center"
           className="bodyText"
-          style={{ color: "#041852" }}
+          style={{ color: "#041852", lineHeight: "1.4" }}
         >
           The world looks more and more like a banana republic every day. Peel
           back the skin and you find questionable intentions, a lack of
@@ -41,16 +41,12 @@ function TopBlurb() {
           <br />
           <br />
           But what are the funds for, exactly? What is the raison d'être? That’s
-          up to you to decide, truly. <br />
-          <br />
-          Fund a politician, change a local law, drop the cash from a helicopter
-          on a small town (not investment advice), film a documentary about the
-          whole damn thing, we neither care nor have a say. The limit is your
-          imagination… and your ability to convince a group of strangers on the
-          internet to agree on something. I’m sure someone will come up with
-          something. <br />
-          <br />
-          Launch date:
+          up to you to decide, truly. Fund a politician, change a local law,
+          drop the cash from a helicopter on a small town (not investment
+          advice), film a documentary about the whole damn thing, we neither
+          care nor have a say. The limit is your imagination… and your ability
+          to convince a group of strangers on the internet to agree on
+          something. I’m sure someone will come up with something.
         </Typography>
       </Container>
     </div>
