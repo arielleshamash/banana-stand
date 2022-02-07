@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/banana-stand/static/css/main.1fb75809.css",
-    "main.js": "/banana-stand/static/js/main.5a4f55fa.js",
-    "static/media/paperBackground.png": "/banana-stand/static/media/paperBackground.b41d45d708674869dbd7.png",
-    "static/media/AlexandreTheodore.jpg": "/banana-stand/static/media/AlexandreTheodore.af665fe2b1b7ae4d3b3b.jpg",
-    "static/media/AntoineQuentinFouquierTinville.jpg": "/banana-stand/static/media/AntoineQuentinFouquierTinville.a66237e3c8e53012e62e.jpg",
-    "static/media/AnacharsisCloots.jpg": "/banana-stand/static/media/AnacharsisCloots.154f113ce06d03e087e7.jpg",
-    "static/media/logo.png": "/banana-stand/static/media/logo.6a666bb5e4ed7dbcc9fa.png",
-    "static/media/BananaStand.png": "/banana-stand/static/media/BananaStand.e85110d5d5d12499e124.png",
-    "static/media/Chapbook.ttf": "/banana-stand/static/media/Chapbook.34b8c83ab3e22e6a95b8.ttf",
-    "static/media/IMFellEnglish-Regular.ttf": "/banana-stand/static/media/IMFellEnglish-Regular.12205539f8948a533a5c.ttf",
-    "static/media/WalterTurncoat-Regular.ttf": "/banana-stand/static/media/WalterTurncoat-Regular.e44844385433eb0f841c.ttf",
-    "static/media/USDeclaration.ttf": "/banana-stand/static/media/USDeclaration.62cfb2fb95750b7b1900.ttf",
-    "index.html": "/banana-stand/index.html",
-    "main.1fb75809.css.map": "/banana-stand/static/css/main.1fb75809.css.map",
-    "main.5a4f55fa.js.map": "/banana-stand/static/js/main.5a4f55fa.js.map"
+    "main.css": "/bananarepublique.xyz/static/css/main.550be780.css",
+    "main.js": "/bananarepublique.xyz/static/js/main.4779b082.js",
+    "static/media/paperBackground.png": "/bananarepublique.xyz/static/media/paperBackground.b41d45d708674869dbd7.png",
+    "static/media/gridv2.png": "/bananarepublique.xyz/static/media/gridv2.c61b873a9619c82630ab.png",
+    "static/media/logo.png": "/bananarepublique.xyz/static/media/logo.6a666bb5e4ed7dbcc9fa.png",
+    "static/media/BananaStand.png": "/bananarepublique.xyz/static/media/BananaStand.e85110d5d5d12499e124.png",
+    "static/media/Chapbook.ttf": "/bananarepublique.xyz/static/media/Chapbook.34b8c83ab3e22e6a95b8.ttf",
+    "static/media/IMFellEnglish-Regular.ttf": "/bananarepublique.xyz/static/media/IMFellEnglish-Regular.12205539f8948a533a5c.ttf",
+    "static/media/WalterTurncoat-Regular.ttf": "/bananarepublique.xyz/static/media/WalterTurncoat-Regular.e44844385433eb0f841c.ttf",
+    "static/media/USDeclaration.ttf": "/bananarepublique.xyz/static/media/USDeclaration.62cfb2fb95750b7b1900.ttf",
+    "static/media/corners.png": "/bananarepublique.xyz/static/media/corners.8f5edaf8149fa62363fb.png",
+    "index.html": "/bananarepublique.xyz/index.html",
+    "main.550be780.css.map": "/bananarepublique.xyz/static/css/main.550be780.css.map",
+    "main.4779b082.js.map": "/bananarepublique.xyz/static/js/main.4779b082.js.map"
   },
   "entrypoints": [
-    "static/css/main.1fb75809.css",
-    "static/js/main.5a4f55fa.js"
+    "static/css/main.550be780.css",
+    "static/js/main.4779b082.js"
   ]
 }
