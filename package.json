@@ -2,7 +2,7 @@
   "name": "banana-stand",
   "version": "0.1.1",
   "private": true,
-  "homepage": "bananarepublique.xyz",
+  "homepage": ".",
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
