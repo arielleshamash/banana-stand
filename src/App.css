@@ -41,3 +41,23 @@ p {
 .MuiTypography-colorTextSecondary {
   color: "#041852" !important;
 }
+.mini-grid {
+  display: none;
+}
+.bold {
+  font-weight: bold;
+}
+.emphasized {
+  font-style: italic;
+}
+.crossout {
+  text-decoration: line-through darkred ;
+}
+@media screen and (max-width: 800px) {
+  .big-grid {
+    display: none;
+  }
+  .mini-grid {
+    display: flex;
+  }
+}
