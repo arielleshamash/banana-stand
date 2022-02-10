@@ -52,7 +52,7 @@ function Head() {
                     className="bodyText"
                     style={{ color: "#041852" }}
                   >
-                    banana republic
+                    ba·na·na ré·pub·lique
                     <Typography
                       variant="h4"
                       className="bodyText"
