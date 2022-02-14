@@ -60,7 +60,7 @@ function FAQsection() {
             <AccordionDetails>
               <Typography className="bodyText" style={{ color: "#041852" }}>
                 Peggy Anderson is an artist/photographer based in New York and
-                Sweden. Known for embracing ritual and typology, Peggy’s
+                Paris. Known for embracing ritual and typology, Peggy’s
                 signature project and book{" "}
                 <Link
                   href="https://www.kehrerverlag.com/en/peggy-anderson-the-morning-dip-978-3-86828-976-3"
