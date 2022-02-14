@@ -51,7 +51,7 @@ p {
   font-style: italic;
 }
 .crossout {
-  text-decoration: line-through darkred ;
+  text-decoration: line-through darkred;
 }
 @media screen and (max-width: 800px) {
   .big-grid {
@@ -60,4 +60,10 @@ p {
   .mini-grid {
     display: flex;
   }
+  html {
+    background: none;
+  }
+  /* #banana-title {
+    align-items: center;
+  } */
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import "./styles/index.css";
 import { Container, Grid } from "@material-ui/core";
 import photoGrid from "../HeadSection/images/gridv2.png";
 import Framed1 from "../HeadSection/images/Framed1.png";
@@ -33,14 +32,19 @@ function PictureGrid() {
             marginBottom: "20px",
           }}
         />
-        <Grid container direction="row">
-          <Grid item xs={4}>
+        <Grid
+          container
+          direction="row"
+          spacing={{ xs: 2, md: 3 }}
+          justifyContent="center"
+        >
+          <Grid item xs={9} sm={4}>
             <img src={Framed1} alt="framed1" style={{ maxWidth: "90%" }} />
           </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={9} sm={4}>
             <img src={Framed2} alt="framed2" style={{ maxWidth: "90%" }} />
           </Grid>
-          <Grid item xs={4}>
+          <Grid item xs={9} sm={4}>
             <img src={Framed3} alt="framed3" style={{ maxWidth: "90%" }} />
           </Grid>
         </Grid>

@@ -2,6 +2,8 @@ import React from "react";
 import { Typography, Box, Grid, Toolbar, Container } from "@material-ui/core";
 import logo from "./images/logo.png";
 import stand from "./images/BananaStand.png";
+import flourish from "./images/swish.png";
+import bottomSwish from "./images/bottomSwish.png";
 
 function Head() {
   return (
@@ -13,17 +15,23 @@ function Head() {
               src={logo}
               alt="logo"
               style={{ width: "15%", margin: "15px" }}
+              id="main-logo"
             />
           </Toolbar>{" "}
         </Box>
       </div>
-      <Container fixed>
+      <Container maxWidth="lg">
         <Box
+          component="section"
+          justifyContent="center"
+          alignItems="center"
+          id="banana-stand"
           sx={{
-            height: "83vh",
+            display: "flex",
             backgroundColor: "rgb(255,255,255, 0.5)",
             marginBottom: "30px",
             justify: "center",
+            overflow: "hidden",
           }}
         >
           <Grid container justify="center" direction="row">
@@ -45,22 +53,40 @@ function Head() {
                 flexDirection="column"
                 justifyContent="center"
                 height="100%"
+                // alignItems="flex-start"
+                id="banana-title"
               >
+                {/* <Grid item xs={8}>
+                <img
+                  src={flourish}
+                  alt="decoration"
+                  style={{
+                    width: "35%",
+                    marginTop: "-280px",
+                    zIndex: "0",
+                    position: "absolute",
+                  }}
+                />
+              </Grid> */}
                 <Box mb={4}>
+                  {/* <Grid item xs={8}> */}
                   <Typography
                     variant="h3"
                     className="bodyText"
-                    style={{ color: "#041852" }}
+                    style={{ color: "#041852", zIndex: "3" }}
                   >
                     ba·na·na ré·pub·lique
-                    <Typography
-                      variant="h4"
-                      className="bodyText"
-                      style={{ color: "darkred", marginTop: "7.5px" }}
-                    >
-                      [noun]
-                    </Typography>
                   </Typography>
+                  {/* </Grid>
+                <Grid item xs={8}> */}
+                  <Typography
+                    variant="h4"
+                    className="bodyText"
+                    style={{ color: "darkred", marginTop: "7.5px" }}
+                  >
+                    [noun]
+                  </Typography>
+                  {/* </Grid> */}
                 </Box>
                 <div>
                   <Box mb={2}>
@@ -69,7 +95,8 @@ function Head() {
                       className="bodyText"
                       style={{ color: "#555555" }}
                     >
-                      /bəˌnæn.ə rɪˈpʌb.lɪk/ <br />
+                      {`/bəˌnæn.ə rɪˈpʌb.lɪk/`}
+                      <br />
                     </Typography>
                     <Typography
                       variant="h5"
