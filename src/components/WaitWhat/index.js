@@ -54,7 +54,7 @@ function WaitWhat() {
           </span>{" "}
           print of the Banana République collection in its entirety; given
           you’re all over the world and whatnot it will take a few months to
-          ship them so stay tuned. Don’t own an NFT? Tune into the{" "}
+          ship them so stay tuned. Don’t own an NFT? Tune into our{" "}
           <Link
             href="https://discord.gg/tDdgDj7Kks"
             target="_blank"
@@ -63,6 +63,16 @@ function WaitWhat() {
             rel="noopener"
           >
             Discord
+          </Link>{" "}
+          or follow us on{" "}
+          <Link
+            href="https://twitter.com/republiqueDAO"
+            target="_blank"
+            color="inherit"
+            underline="always"
+            rel="noopener"
+          >
+            Twitter
           </Link>{" "}
           and watch the madness from the sidelines.
         </Typography>

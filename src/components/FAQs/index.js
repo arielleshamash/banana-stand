@@ -207,26 +207,30 @@ function FAQsection() {
             </AccordionSummary>
             <AccordionDetails>
               <Typography className="bodyText" style={{ color: "#041852" }}>
-                <List>
-                  <ListItem>
-                    <ListItemText primary="Tools used" />
-                  </ListItem>
-                  <ListItem>
-                    <ListItemText primary="Airdrop" />
-                  </ListItem>
-                  <ListItem>
-                    <ListItemText primary="Rage quit or nah" />
-                  </ListItem>
-                  <ListItem>
-                    <ListItemText primary="Treasury control" />
-                  </ListItem>
-                  <ListItem>
-                    <ListItemText primary="The only proposal in the DAO at inception will be a vote to determine the voting mechanism - meta, eh?  Once that vote is concluded the power is truly in your hands." />
-                  </ListItem>
-                  <ListItem>
-                    <ListItemText primary="Access tokens can be sold (because it’s Web3 so even your token is a token), with 10% of each sale going to dev resources (pizza & beer)." />
-                  </ListItem>
-                </List>
+                Each NFT holder, past and present, will be airdropped an{" "}
+                <Link
+                  href="https://en.wikipedia.org/wiki/Assignat"
+                  target="_blank"
+                  color="inherit"
+                  underline="always"
+                  rel="noopener"
+                >
+                  Assignat
+                </Link>{" "}
+                granting access to the DAO. The token offers access to all
+                discord channels, voting mechanisms, and treasury control.
+                <br /> <br />
+                The only proposal in the DAO at inception will be a vote to
+                determine the voting mechanism - meta, eh? Once that vote is
+                concluded the power is truly in your hands. All funds will be
+                deposited into a multi-sig Gnosis Safe that will require
+                whatever majority is decided in order to distribute any funding.
+                <br /> <br />
+                There will be a cap of 1799 assignats minted, thus limiting the
+                potential size of the DAO. Should you decide to relinquish your
+                position in le Directoire you may sell your assignat (because
+                it’s Web3 so even your token is a token), with 10% of each sale
+                going to dev resources (pizza & beer).
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -315,10 +319,12 @@ function FAQsection() {
             </AccordionSummary>
             <AccordionDetails>
               <Typography className="bodyText" style={{ color: "#041852" }}>
-                NFTs minted on Polygon and moved to ETH, with the gas fees baked
-                in already. <br />
-                IPFS? <br />
-                Look at this intricate map I drew
+                We've opted to mint our project on Polygon in order to offer the
+                scalability and minimal gas fees required to run such a
+                venerable institution of nothingness.
+                <br /> <br />
+                DAO tooling includes Snapshot for voting and a Gnosis Safe for
+                treasury management.
               </Typography>
             </AccordionDetails>
           </Accordion>

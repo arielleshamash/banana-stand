@@ -10,9 +10,9 @@ function TopBlurb() {
             variant="h3"
             align="center"
             className="header"
-            style={{ color: "darkred" }}
+            style={{ color: "darkred", lineHeight: "1.8" }}
           >
-            Top Blurb
+            Vive la Révolution!
           </Typography>
         </div>
         <Typography
@@ -44,12 +44,11 @@ function TopBlurb() {
           <br />
           But what are the funds for, exactly? What is the raison d'être? That’s
           up to you to decide. Fund a politician, change a local law, drop the
-          cash from a helicopter on a small town (not investment advice), film a
-          documentary about the whole damn thing, we neither care nor have a
-          say. The limit is your imagination…and your ability to convince a
-          group of strangers on the internet to agree on something. I’m sure
-          someone will come up with{" "}
-          <span className="emphasized">something.</span>
+          cash from a helicopter (not investment advice), film a documentary
+          about the whole damn thing, we neither care nor have a say. The limit
+          is your imagination…and your ability to convince a group of strangers
+          on the internet to agree on something. I’m sure someone will come up
+          with <span className="emphasized">something.</span>
         </Typography>
       </Container>
     </div>
