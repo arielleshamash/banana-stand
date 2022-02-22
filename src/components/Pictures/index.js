@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Grid } from "@material-ui/core";
+import { Container, Grid, Typography } from "@material-ui/core";
 import photoGrid from "../HeadSection/images/gridv2.png";
 import Framed1 from "../HeadSection/images/Framed1.png";
 import Framed2 from "../HeadSection/images/Framed2.png";
@@ -40,12 +40,51 @@ function PictureGrid() {
         >
           <Grid item xs={9} sm={4}>
             <img src={Framed1} alt="framed1" style={{ maxWidth: "90%" }} />
+            <Typography
+              variant="h6"
+              align="center"
+              className="header"
+              style={{
+                color: "darkred",
+                lineHeight: "1.8",
+                marginBottom: "15px",
+                marginTop: "10px",
+              }}
+            >
+              Jean Sylvain Bailly
+            </Typography>
           </Grid>
           <Grid item xs={9} sm={4}>
             <img src={Framed2} alt="framed2" style={{ maxWidth: "90%" }} />
+            <Typography
+              variant="h6"
+              align="center"
+              className="header"
+              style={{
+                color: "darkred",
+                lineHeight: "1.8",
+                marginBottom: "15px",
+                marginTop: "10px",
+              }}
+            >
+              Jean-Francois-Auguste Moulin
+            </Typography>
           </Grid>
           <Grid item xs={9} sm={4}>
             <img src={Framed3} alt="framed3" style={{ maxWidth: "90%" }} />
+            <Typography
+              variant="h6"
+              align="center"
+              className="header"
+              style={{
+                color: "darkred",
+                lineHeight: "1.8",
+                marginBottom: "15px",
+                marginTop: "10px",
+              }}
+            >
+              Marie Antoinette
+            </Typography>
           </Grid>
         </Grid>
       </Container>
