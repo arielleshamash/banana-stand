@@ -66,4 +66,7 @@ p {
   /* #banana-title {
     align-items: center;
   } */
+  #main-logo {
+    width: 160px !important;
+  }
 }

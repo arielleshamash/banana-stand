@@ -1,26 +1,42 @@
 import React from "react";
-import { Typography, Box, Grid, Toolbar, Container } from "@material-ui/core";
+import { Typography, Box, Grid, Container, Button } from "@material-ui/core";
 import logo from "./images/logo.png";
 import stand from "./images/BananaStand.png";
-import flourish from "./images/swish.png";
-import bottomSwish from "./images/bottomSwish.png";
 
 function Head() {
   return (
     <div style={{ marginBottom: "100px" }}>
-      <div>
-        <Box display="flex" justifyContent="space-around">
-          <Toolbar>
+      <Container maxWidth="lg">
+        <Grid container direction="row">
+          <Grid item xs={8}>
             <img
               src={logo}
               alt="logo"
-              style={{ width: "15%", margin: "15px" }}
+              style={{ width: "200px", margin: "15px" }}
               id="main-logo"
             />
-          </Toolbar>{" "}
-        </Box>
-      </div>
-      <Container maxWidth="lg">
+          </Grid>
+          <Grid container item xs={4}>
+            <Button
+              variant="text"
+              size="large"
+              style={{ color: "#041852" }}
+              href="https://discord.gg/tDdgDj7Kks"
+              target="_blank"
+            >
+              Discord
+            </Button>
+            <Button
+              variant="text"
+              size="large"
+              style={{ color: "#041852" }}
+              href="https://twitter.com/republiqueDAO"
+              target="_blank"
+            >
+              Twitter
+            </Button>
+          </Grid>
+        </Grid>
         <Box
           component="section"
           justifyContent="center"
@@ -53,23 +69,9 @@ function Head() {
                 flexDirection="column"
                 justifyContent="center"
                 height="100%"
-                // alignItems="flex-start"
                 id="banana-title"
               >
-                {/* <Grid item xs={8}>
-                <img
-                  src={flourish}
-                  alt="decoration"
-                  style={{
-                    width: "35%",
-                    marginTop: "-280px",
-                    zIndex: "0",
-                    position: "absolute",
-                  }}
-                />
-              </Grid> */}
                 <Box mb={4}>
-                  {/* <Grid item xs={8}> */}
                   <Typography
                     variant="h3"
                     className="bodyText"
@@ -77,8 +79,6 @@ function Head() {
                   >
                     ba·na·na ré·pub·lique
                   </Typography>
-                  {/* </Grid>
-                <Grid item xs={8}> */}
                   <Typography
                     variant="h4"
                     className="bodyText"
@@ -86,7 +86,6 @@ function Head() {
                   >
                     [noun]
                   </Typography>
-                  {/* </Grid> */}
                 </Box>
                 <div>
                   <Box mb={2}>
@@ -109,6 +108,15 @@ function Head() {
                     </Typography>
                   </Box>
                 </div>
+                <Button
+                  variant="contained"
+                  size="large"
+                  style={{ color: "darkred", marginTop: "20px" }}
+                  href="https://discord.gg/tDdgDj7Kks"
+                  target="_blank"
+                >
+                  View the collection
+                </Button>{" "}
               </Box>
             </Grid>
           </Grid>
