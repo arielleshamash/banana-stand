@@ -22,21 +22,15 @@ function WaitWhat() {
           style={{ color: "#041852", lineHeight: "1.4" }}
         >
           So check it out. Each individual NFT confers access to the République
-          through an airdropped access token. Each access token, called an
-          Assignat, represents one share of the treasury and one vote in all DAO
+          and represents 1/88th of the treasury and one vote in all DAO
           proposals. When an NFT is resold a portion of the sale will return to
-          the DAO and the new owner will also be airdropped an access token.
-          Previous DAO access is <span className="bold">not</span> revoked,
-          however - every day both the treasury and member count will grow,
-          capping at 1789 in honor of the Bastille and whatnot.{" "}
-          <span className="emphasized">Vive la révolution!</span>
+          the DAO and the new owner will take control of the share and vote.
           <br />
           <br />
-          We’re building a collective in the open, allowing anyone and everyone
-          to witness the growth that occurs when you bring human beings together
-          with proportionate authority but no set objective. The growth will be
-          organic and without any predictable direction as every new member who
-          joins has as much say as those before them.
+          We’re building in the open, allowing anyone and everyone to witness
+          what happens when you bring human beings together with proportionate
+          authority but no set objective -{" "}
+          <span className="emphasized">vive la révolution!</span>
           <br />
           <br />
           Will it fall apart in a matter of days? Somewhat likely. Will it go on

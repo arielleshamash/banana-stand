@@ -38,8 +38,7 @@ function TopBlurb() {
           generation thrown on the ground and left to rot on the streets. 80% of
           the NFT primary sale proceeds will slip directly into the banana stand{" "}
           <span className="crossout">because there’s always money in it</span>{" "}
-          which will be controlled by all current and eventual past NFT holders
-          (le Directoire).
+          which will be controlled by all NFT holders (le Directoire).
           <br />
           <br />
           But what are the funds for, exactly? What is the raison d'être? That’s

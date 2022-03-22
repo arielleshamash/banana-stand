@@ -166,12 +166,12 @@ function FAQsection() {
             </AccordionSummary>
             <AccordionDetails>
               <Typography className="bodyText" style={{ color: "#041852" }}>
-                Each of the 88 NFTs has already been minted, since unlike
-                randomized generative art we want you to be able to own the
-                piece that speaks to you personally. Each individual photograph
-                has never been published elsewhere and never will be; each NFT
-                is as rare as each other so there’s no need to try to game the
-                system.
+                Each of the 88 NFTs has already been minted on Ethereum, since
+                unlike randomized generative art we want you to be able to own
+                the piece that speaks to you personally. Each individual
+                photograph has never been published elsewhere and never will be;
+                each NFT is as rare as each other so there’s no need to try to
+                game the system.
                 <br /> <br />
                 80% of the proceeds of the primary sale will go straight to the
                 DAO, with the other 20% going directly to Peggy. Each individual
@@ -181,9 +181,8 @@ function FAQsection() {
                 and purposes you retain access to 80% of what you paid
                 immediately as a DAO member.
                 <br /> <br />
-                Ownership of an NFT at any point confers you access to the DAO;
-                even if you sell your NFT you’ll maintain DAO access so really
-                what you do with your banana is up to you.
+                Should you decide to relinquish your position in le Directoire
+                you may admit pusillanimity and sell your NFT.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -207,30 +206,20 @@ function FAQsection() {
             </AccordionSummary>
             <AccordionDetails>
               <Typography className="bodyText" style={{ color: "#041852" }}>
-                Each NFT holder, past and present, will be airdropped an{" "}
-                <Link
-                  href="https://en.wikipedia.org/wiki/Assignat"
-                  target="_blank"
-                  color="inherit"
-                  underline="always"
-                  rel="noopener"
-                >
-                  Assignat
-                </Link>{" "}
-                granting access to the DAO. The token offers access to all
-                discord channels, voting mechanisms, and treasury control.
+                Each NFT offers access to all discord channels, voting
+                mechanisms, and treasury control. For reference,{" "}
+                <span className="bold">
+                  none of the developers of the project, nor Peggy, will have an
+                  NFT or access to the DAO
+                </span>{" "}
+                - it really is all you.
                 <br /> <br />
-                The only proposal in the DAO at inception will be a vote to
-                determine the voting mechanism - meta, eh? Once that vote is
-                concluded the power is truly in your hands. All funds will be
-                deposited into a multi-sig Gnosis Safe that will require
-                whatever majority is decided in order to distribute any funding.
-                <br /> <br />
-                There will be a cap of 1799 assignats minted, thus limiting the
-                potential size of the DAO. Should you decide to relinquish your
-                position in le Directoire you may sell your assignat (because
-                it’s Web3 so even your token is a token), with 10% of each sale
-                going to dev resources (pizza & beer).
+                Voting will take place using Snapshot, with the only proposal in
+                the DAO at inception a vote to determine the voting mechanism -
+                meta, eh? Once that vote is concluded the power is truly in your
+                hands. All funds will be deposited into a multi-sig Gnosis Safe
+                that will require whatever majority is decided in order to
+                distribute any funding.
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -273,6 +262,14 @@ function FAQsection() {
                   </ListItem>
                   <ListItem>
                     <ListItemText
+                      primary={"How are the funds distributed?"}
+                      secondary={
+                        "We’ve created an intermediary wallet that is set up to automatically funnel all appropriate percentages of primary and secondary sales to the DAO treasury and Peggy’s wallet."
+                      }
+                    />
+                  </ListItem>
+                  <ListItem>
+                    <ListItemText
                       primary="Do I have to remain anonymous?"
                       secondary="It’s up to you whether you want to utilize a pseudonym or not."
                     />
@@ -285,49 +282,21 @@ function FAQsection() {
                   </ListItem>
                   <ListItem>
                     <ListItemText
-                      primary="How will we prevent shenanigans?"
-                      secondary="In order to receive a DAO access token through a secondary sale the NFT must be sold for a higher value than its previous purchase price."
+                      primary="What happens if it all goes wrong or gets hacked?"
+                      secondary="We meet at the pub for a cheeky pint and hash it out from there."
                     />
                   </ListItem>
                   <ListItem>
                     <ListItemText
-                      primary="What happens if it all goes wrong or gets hacked?"
-                      secondary="We meet at the pub for a cheeky pint and hash it out from there."
+                      primary="Can we have some technical details?"
+                      secondary={`The NFT are ERC-71. DAO tooling consists includes Snapshot for voting and a Gnosis Safe for treasury management. The Discord utilizes Guild.xyz for token-gating and the Zodiac module to facilitate poll-voting. I typed this on an airplane on my way to`}
                     />
                   </ListItem>
                 </List>
               </Typography>
             </AccordionDetails>
           </Accordion>
-          <Accordion
-            expanded={expanded === "panel5"}
-            onChange={handleChange("panel5")}
-            style={{ backgroundColor: "rgb(255,255,255, 0.5)" }}
-          >
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
-              aria-controls="panel5bh-content"
-              id="panel5bh-header"
-            >
-              <Typography
-                className="bodyText"
-                variant="h6"
-                style={{ color: "#041852" }}
-              >
-                Technical Details
-              </Typography>
-            </AccordionSummary>
-            <AccordionDetails>
-              <Typography className="bodyText" style={{ color: "#041852" }}>
-                We've opted to mint our project on Polygon in order to offer the
-                scalability and minimal gas fees required to run such a
-                venerable institution of nothingness.
-                <br /> <br />
-                DAO tooling includes Snapshot for voting and a Gnosis Safe for
-                treasury management.
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
+          
           <Accordion
             expanded={expanded === "panel6"}
             onChange={handleChange("panel6")}
