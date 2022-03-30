@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Grid, Typography } from "@material-ui/core";
+import { Container, Grid, Typography, Link } from "@material-ui/core";
 import photoGrid from "../HeadSection/images/gridv2.png";
 import Framed1 from "../HeadSection/images/Framed1.png";
 import Framed2 from "../HeadSection/images/Framed2.png";
@@ -14,32 +14,42 @@ function PictureGrid() {
       style={{ marginBottom: "80px" }}
     >
       <Container maxWidth="lg">
-        <img
-          src={photoGrid}
-          alt="banana-pics"
-          className="big-grid"
-          style={{
-            maxWidth: "100%",
-            marginBottom: "20px",
-          }}
-        />
-        <img
-          src={miniGrid}
-          alt="banana-pics-mini"
-          className="mini-grid"
-          style={{
-            maxWidth: "100%",
-            marginBottom: "20px",
-          }}
-        />
+        <Link
+          href="https://rarible.com/collection/0x4f78fce77c0c1502a4b16a61b0ccd199bb8601fc/"
+          target="_blank"
+        >
+          <img
+            src={photoGrid}
+            alt="banana-pics"
+            className="big-grid"
+            style={{
+              maxWidth: "100%",
+              marginBottom: "20px",
+            }}
+          />
+          <img
+            src={miniGrid}
+            alt="banana-pics-mini"
+            className="mini-grid"
+            style={{
+              maxWidth: "100%",
+              marginBottom: "20px",
+            }}
+          />
+        </Link>
         <Grid
           container
           direction="row"
-          spacing={{ xs: 2, md: 3 }}
           justifyContent="center"
+          style={{ gap: 50 }}
         >
-          <Grid item xs={9} sm={4}>
-            <img src={Framed1} alt="framed1" style={{ maxWidth: "90%" }} />
+          <Grid item xs={9} sm={3}>
+            <Link
+              href="https://rarible.com/token/0x4f78fce77c0c1502a4b16a61b0ccd199bb8601fc:45"
+              target="_blank"
+            >
+              <img src={Framed1} alt="framed1" style={{ maxWidth: "100%" }} />
+            </Link>
             <Typography
               variant="h6"
               align="center"
@@ -54,8 +64,13 @@ function PictureGrid() {
               Jean Sylvain Bailly
             </Typography>
           </Grid>
-          <Grid item xs={9} sm={4}>
-            <img src={Framed2} alt="framed2" style={{ maxWidth: "90%" }} />
+          <Grid item xs={9} sm={3}>
+            <Link
+              href="https://rarible.com/token/0x4f78fce77c0c1502a4b16a61b0ccd199bb8601fc:49"
+              target="_blank"
+            >
+              <img src={Framed2} alt="framed2" style={{ maxWidth: "100%" }} />
+            </Link>
             <Typography
               variant="h6"
               align="center"
@@ -70,8 +85,13 @@ function PictureGrid() {
               Jean-Francois-Auguste Moulin
             </Typography>
           </Grid>
-          <Grid item xs={9} sm={4}>
-            <img src={Framed3} alt="framed3" style={{ maxWidth: "90%" }} />
+          <Grid item xs={9} sm={3}>
+            <Link
+              href="https://rarible.com/token/0x4f78fce77c0c1502a4b16a61b0ccd199bb8601fc:69"
+              target="_blank"
+            >
+              <img src={Framed3} alt="framed3" style={{ maxWidth: "100%" }} />
+            </Link>
             <Typography
               variant="h6"
               align="center"

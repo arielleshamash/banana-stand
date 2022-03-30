@@ -289,14 +289,14 @@ function FAQsection() {
                   <ListItem>
                     <ListItemText
                       primary="Can we have some technical details?"
-                      secondary={`The NFT are ERC-71. DAO tooling consists includes Snapshot for voting and a Gnosis Safe for treasury management. The Discord utilizes Guild.xyz for token-gating and the Zodiac module to facilitate poll-voting. I typed this on an airplane on my way to`}
+                      secondary={`The NFT are ERC-721. DAO tooling consists includes Snapshot for voting and a Gnosis Safe for treasury management. The Discord utilizes Guild.xyz for token-gating and the Zodiac module to facilitate poll-voting.`}
                     />
                   </ListItem>
                 </List>
               </Typography>
             </AccordionDetails>
           </Accordion>
-          
+
           <Accordion
             expanded={expanded === "panel6"}
             onChange={handleChange("panel6")}

@@ -1,7 +1,20 @@
 import React from "react";
-import { Typography, Box, Grid, Container, Button } from "@material-ui/core";
+import {
+  Typography,
+  Box,
+  Grid,
+  Container,
+  Button,
+} from "@material-ui/core";
 import logo from "./images/logo.png";
 import stand from "./images/BananaStand.png";
+import IconButton from "@mui/material/IconButton";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { fab, faDiscord } from "@fortawesome/free-brands-svg-icons";
+import TwitterIcon from "@mui/icons-material/Twitter";
+
+library.add(fab, faDiscord);
 
 function Head() {
   return (
@@ -16,25 +29,30 @@ function Head() {
               id="main-logo"
             />
           </Grid>
-          <Grid container item xs={4}>
-            <Button
-              variant="text"
-              size="large"
-              style={{ color: "#041852" }}
+          <Grid
+            container
+            item
+            xs={4}
+            alignItems="center"
+            justifyContent="center"
+          >
+            <IconButton
+              aria-label="discord"
               href="https://discord.gg/tDdgDj7Kks"
               target="_blank"
             >
-              Discord
-            </Button>
-            <Button
-              variant="text"
-              size="large"
-              style={{ color: "#041852" }}
+              <FontAwesomeIcon
+                icon="fa-brands fa-discord"
+                style={{ color: "#041852", fontSize: 30 }}
+              />
+            </IconButton>
+            <IconButton
+              aria-label="twitter"
               href="https://twitter.com/republiqueDAO"
               target="_blank"
             >
-              Twitter
-            </Button>
+              <TwitterIcon style={{ color: "#041852", fontSize: 30 }} />
+            </IconButton>
           </Grid>
         </Grid>
         <Box
@@ -51,7 +69,13 @@ function Head() {
           }}
         >
           <Grid container justify="center" direction="row">
-            <Grid item md={6}>
+            <Grid
+              container
+              item
+              md={6}
+              alignItems="center"
+              justifyContent="center"
+            >
               <img
                 src={stand}
                 alt="banana-stand"
@@ -111,12 +135,22 @@ function Head() {
                 <Button
                   variant="contained"
                   size="large"
-                  style={{ color: "darkred", marginTop: "20px" }}
-                  href="https://discord.gg/tDdgDj7Kks"
+                  style={{
+                    color: "darkred",
+                    marginTop: "20px",
+                    textTransform: "none",
+                  }}
+                  href="https://rarible.com/collection/0x4f78fce77c0c1502a4b16a61b0ccd199bb8601fc/"
                   target="_blank"
                 >
-                  View the collection
-                </Button>{" "}
+                  <Typography
+                    variant="h5"
+                    className="bodyText"
+                    style={{ color: "darkred" }}
+                  >
+                    View the collection
+                  </Typography>{" "}
+                </Button>
               </Box>
             </Grid>
           </Grid>
