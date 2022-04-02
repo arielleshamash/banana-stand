@@ -289,7 +289,7 @@ function FAQsection() {
                   <ListItem>
                     <ListItemText
                       primary="Can we have some technical details?"
-                      secondary={`The NFT are ERC-721. DAO tooling consists includes Snapshot for voting and a Gnosis Safe for treasury management. The Discord utilizes Guild.xyz for token-gating and the Zodiac module to facilitate poll-voting.`}
+                      secondary={`The NFT are ERC-721. DAO tooling consists includes Snapshot for voting and a Gnosis Safe for treasury management. The Discord utilizes Collab.land for token-gating and the Zodiac module to facilitate poll-voting.`}
                     />
                   </ListItem>
                 </List>
