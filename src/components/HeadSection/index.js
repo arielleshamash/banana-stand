@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  Typography,
-  Box,
-  Grid,
-  Container,
-  Button,
-} from "@material-ui/core";
+import { Typography, Box, Grid, Container, Button } from "@material-ui/core";
 import logo from "./images/logo.png";
 import stand from "./images/BananaStand.png";
 import IconButton from "@mui/material/IconButton";
@@ -140,7 +134,7 @@ function Head() {
                     marginTop: "20px",
                     textTransform: "none",
                   }}
-                  href="https://rarible.com/collection/0x4f78fce77c0c1502a4b16a61b0ccd199bb8601fc/"
+                  href="https://opensea.io/collection/bananarepublique"
                   target="_blank"
                 >
                   <Typography

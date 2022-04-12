@@ -15,7 +15,7 @@ function PictureGrid() {
     >
       <Container maxWidth="lg">
         <Link
-          href="https://rarible.com/collection/0x4f78fce77c0c1502a4b16a61b0ccd199bb8601fc/"
+          href="https://opensea.io/collection/bananarepublique"
           target="_blank"
         >
           <img
@@ -45,7 +45,7 @@ function PictureGrid() {
         >
           <Grid item xs={9} sm={3}>
             <Link
-              href="https://rarible.com/token/0x4f78fce77c0c1502a4b16a61b0ccd199bb8601fc:45"
+              href="https://opensea.io/assets/0x4f78fce77c0c1502a4b16a61b0ccd199bb8601fc/45"
               target="_blank"
             >
               <img src={Framed1} alt="framed1" style={{ maxWidth: "100%" }} />
@@ -66,7 +66,7 @@ function PictureGrid() {
           </Grid>
           <Grid item xs={9} sm={3}>
             <Link
-              href="https://rarible.com/token/0x4f78fce77c0c1502a4b16a61b0ccd199bb8601fc:49"
+              href="https://opensea.io/assets/0x4f78fce77c0c1502a4b16a61b0ccd199bb8601fc/49"
               target="_blank"
             >
               <img src={Framed2} alt="framed2" style={{ maxWidth: "100%" }} />
@@ -87,7 +87,7 @@ function PictureGrid() {
           </Grid>
           <Grid item xs={9} sm={3}>
             <Link
-              href="https://rarible.com/token/0x4f78fce77c0c1502a4b16a61b0ccd199bb8601fc:69"
+              href="https://opensea.io/assets/0x4f78fce77c0c1502a4b16a61b0ccd199bb8601fc/69"
               target="_blank"
             >
               <img src={Framed3} alt="framed3" style={{ maxWidth: "100%" }} />
